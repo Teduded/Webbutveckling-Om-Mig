@@ -1,0 +1,60 @@
+h1 h2 {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.textruta {
+    text-align: center;
+    font-family:'Verdana';
+    margin-bottom: 20px;
+    background-color: rgb(162, 250, 255);
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.fifty-perc {
+    width: 50%;
+    margin: auto;
+}
+
+.thirty-perc {
+    width: 30%;
+    margin: auto;
+}
+
+.fourty-perc {
+    width: 40%;
+    margin: auto;
+}
+
+.fit-cont {
+    width: fit-content;
+    margin: auto;
+}
+
+body {
+    background-image: url(bakgrund.jpg);
+    background-repeat: no-repeat;background-size: cover;background-position: center; 
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.bild {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
