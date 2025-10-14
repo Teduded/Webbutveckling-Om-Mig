@@ -35,6 +35,8 @@ h1 h2 {
     margin: auto;
 }
 
+
+
 body {
     background-image: url(bakgrund.jpg);
     background-repeat: no-repeat;background-size: cover;background-position: center; 
@@ -49,6 +51,8 @@ body {
 .bild {
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
 }
 
 .navbar {
